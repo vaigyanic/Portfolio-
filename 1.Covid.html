@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Covid Data Visualization Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+				<!-- Header -->
+			<div id="header">
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="About.html">About</a></li>
+						<li class="current"><a href="Projects.html">Projects</a></li>
+						<li><a href="docs.html">Documents</a></li>
+					</ul>
+				</nav>
+	
+			</div>
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-8 col-12-narrower">
+								<div id="content">
+									<!-- Content -->
+										<article>
+											<header>
+												<h2 class="major"><i class="fas fa-head-side-mask"></i> 🦠 Sars-COV-2 Data Analysis</h2>
+												<hr>
+											</header>
+											<span class="image center"><img src="assets/css/images/Covid/CovidData.jpg" alt="" /></span>
+											<h3>Project Overview</h3>
+											<p>This dashboard,developed as my inaugural analytics project, provides a comprehensive overview of the global pandemic’s impact. It begins by presenting key global statistics—including total cases, recoveries, and fatalities to offer a quick snapshot of the situation worldwide. A heat map follows, visually representing the percentage of the population infected in each country, with darker shades indicating higher infection rates. A subsequent bar graph compares total deaths across continents, highlighting Europe as having the highest fatalities and Oceania the lowest. Finally, a line graph tracks the evolution of the infection rate over time, delivering valuable insights into how the pandemic has progressed.</p>
+											<p>This was my first data analysis project, guided by a YouTube video from <a href="https://www.youtube.com/c/AlexTheAnalyst" target="_blank">AlexTheAnalyst</a>. Feel free to click on the Github repository link to see more.</p>
+											<hr>
+											
+											<h3>Objective</h3>
+											<p>Clean, Manipulate, explore and visualize COVID-19 data to provide insights into the pandemic's impact.</p>
+											<p>Create a comprehensive pandemic dashboard integrating data into Tableau.</p>
+											<hr>
+											<h3>Features</h3>
+											<p>SQL Techniques: Utilizes joins, Common Table Expressions (CTEs), temporary tables, window functions, aggregate functions, creating views, and data type conversions.</p>
+											<p>Data Analysis: Queries to identify infection and death rates, likelihood of death from COVID-19, and comparison of death counts across continents.</p>
+											<p>Advanced SQL Features: Includes rolling sums of vaccinations, intermediate calculations using CTEs and temporary tables, and creation of views for future visualizations.</p>
+											<hr>
+											<h3>SQL Visualization Scripts</h3>
+											<p>Covid Glabal Numbers</p>
+											<p><span class="image project"><img src="assets/css/images/Covid/Covid.GlobalNumbners.jpg" alt="Global Numbers" /></span></p>
+											<p>Percent of Population Infected</p>
+											<p><span class="image project"><img src="assets/css/images/Covid/Covid.percentpopinfected.jpg" alt="Percent Population Infected" /></span></p>
+											<p>Percent Population Infected By Country</p>
+											<p><span class="image project"><img src="assets/css/images/Covid/covid.percpopinfectedbycountry.jpg" alt="Percent Population Infected" /></span></p>
+											<p>Covid Deaths Per Continent</p>
+											<p><span class="image project"><img src="assets/css/images/Covid/covid.deathpercontinent.jpg" alt="Percent Population Infected" /></span></p>
+											<hr>
+											<h3>Results</h3>
+											<div class="tile-container">
+												<div class="tile">
+													<div class="tile-text">
+														<h5><b>Global Infected Numbers</b></h5>
+														<p>The Analysis of Global Numbers of Infection from SARS-CoV-2 shows that out 775 million cases world wide 7 million resulted in death resulting in a .91% fatality rate. This could be due to the fact that this analysis was done after Covid had been studied and vaccines were created resulting in a plateu in the number of deaths.</p>
+													  </div>
+												  </div>
+												  <div class="tile">
+													<div class="tile-text">
+														<h5><b>Total Deaths per Continent</b></h5>
+														<p>The Analysis of Percent Population infected per country shows that regions with like Africa or South America had a lower Infection rate compared to Regions like North America and Europe. This could be from lack of data during the beginning of Covid.</p>
+													  </div>
+												  </div>
+												  <div class="tile">
+													<div class="tile-text">
+														<h5><b>Percent Population Infected</b></h5>
+														<p>The Analysis of Percent Population Infected shows that there was a gradual and consitent spike in Infections in 2021 and a much stepper raise in infections in 2022. This could reflect the impact of initial waves of the pandemic and subsequent measures to control it.</p>
+													  </div>
+												  </div>
+												  <div class="tile">
+													  <div class="tile-text">
+														<h5><b>Percent Population Infected</b></h5>
+														<p>The Analysis of Percent Population infected per country shows that regions with like Africa or South America had a lower Infection rate compared to Regions like North America and Europe. This could be from lack of data during the beginning of Covid.</p>
+													  </div>
+												  </div>
+										</article>
+								</div>
+							</div>
+							<div class="col-4 col-12-narrower">
+								<div id="sidebar">
+									<!-- Sidebar -->
+									<h6>Project Demo</h6>
+									<section>
+										<video controls width="100%">
+											<source src="assets/css/images/Covid/CovidDemo.mp4" type="video/mp4">
+										</video>
+									</section>
+									<h6>Project Structure</h6>
+									<p><b>CSV Data:</b> Contains CSV files with COVID-19 data.</p>
+									<p><b>Python: </b>  Includes Python scripts for additional data processing and analysis.</p>
+									<p><b>Python:</b>  Contains PostgreSQL scripts for data manipulation and analysis.</p>
+									<p><b>Tableau:</b> Contains Tableau files for data visualization.</p>
+									<hr>
+									<h6>Acknowledgements</h6>
+									<p>Special thanks to <a href="https://www.youtube.com/c/AlexTheAnalyst" target="_blank">AlexTheAnalyst</a> for the guidance and inspiration in creating this project.</p>
+									<p>Data Gathered from <a href="https://ourworldindata.org/covid-deaths" target="_blank">Our World in Data</a></p>
+									<section>
+										<a href="https://github.com/Harrisinho17/Covid_Exploration" class="button">Github Repo</a>
+										<a href="https://public.tableau.com/app/profile/alexander.harris7255/viz/Covid_Visualization_17240932164130/CovidDataViz?publish=yes" class="button">Tableau Dashboard</a>
+									</section>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+            <div id="footer">
+            </div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+			var titleBarTitle = document.querySelector("#titleBar .title");
+			if (titleBarTitle && (titleBarTitle.textContent === "undefined" || titleBarTitle.textContent.trim() === "")) {
+				titleBarTitle.textContent = "";
+			}
+			});
+		</script>
+	</body>
+</html>

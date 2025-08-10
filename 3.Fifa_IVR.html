@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Fifa IVR</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<div id="header">
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="About.html">About</a></li>
+						<li class="current"><a href="Projects.html">Projects</a></li>
+						<li><a href="docs.html">Documents</a></li>
+					</ul>
+				</nav>
+	
+			</div>
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div id="content" class="row">
+							<div class="col-8 col-12-narrower">
+								<header>
+									<h2 class="major"><i class="far fa-futbol"></i> Fifa IVR Case Study </h2>
+								</header>
+                                <hr>
+								<section>
+                                    <span class="image center"><img src="assets/css/images/FifaIVR/Fifa.jpg" alt="Fifa IVR Analysis Center Image" /></span>
+									<h3>Project Overview</h3>
+									<p>This case study, conducted as part of an application for a Data Engineer position at FIFA, was based on sample data and focused on analyzing year-to-date (YTD) metrics from FIFA’s Interactive Voice Response (IVR) system. The objective was to identify areas for optimization by cleaning, analyzing, and visualizing the data. Given the strict four-day timeframe, this project tested my ability to manage time effectively, solve problems under pressure, and apply technical skills in a professional context.</p>
+
+                                     <p>As my first professional case study for an interview, this was both a challenging and rewarding experience. It allowed me to showcase my technical expertise in data preprocessing, SQL analysis, and KPI reporting while gaining insights into opportunities for personal growth. The sample data provided a realistic scenario, enabling me to analyze FIFA’s IVR system and suggest actionable improvements grounded in the data.</p>
+								</section>
+                                <hr>
+								<section>
+									<h3>Objective</h3>
+									<p>To clean, manipulate, explore, and visualize FIFA's IVR data to provide insights into the system's performance and identify areas for optimization.</p> 
+                                    <p>To create a comprehensive dashboard integrating data into Tableau, focusing on key performance indicators (KPIs) such as call volume, average handling time, and customer satisfaction.</p>
+								</section>
+                                <hr>
+								<section>
+									<h3>Features</h3>
+									<p><b>SQL Techniques:</b> Aggregations, window functions, joins, subqueries, and data type conversions.</p>
+                                    <p><b>Data Analysis:</b> Queries to identify IVR Instance trends, Effectiveness, Sources, and Languages. </p>
+                                    <p><b>Data Visualization:</b> Creation of a Tableau dashboard to visualize key metrics and trends, enabling stakeholders to easily interpret the data.</p>
+                                    <p><b>Data Cleaning:</b> Handling missing values, data type conversions, and ensuring data integrity for accurate analysis.</p>
+									<p><b>Data Transformation:</b> ETL process to extract, transform, and load data into PostgreSQL for analysis.</p>
+								</section>
+                                <hr>
+								<section>
+									<h3>SQL Visualization Script</h3>
+                                    <h6>'22 Case Management</h6>
+										<p>Instance Origin Script</p>
+										<p><span class="image project"><img src="assets/css/images/FifaIVR/Scripts/Instance Origin Script.png" alt="Instance Origin Script" /></span></p>
+										<p>&nbsp;</p>
+										<p>Instance Source Script</p>
+										<p><span class="image project"><img src="assets/css/images/FifaIVR/Scripts/Instance Scource Script.png" alt="Instance Source Script" /></span></p>
+										<p>&nbsp;</p>
+										<p>Instance Language Script</p>
+										<p><span class="image project"><img src="assets/css/images/FifaIVR/Scripts/Instance Language Script.png" alt="Instance Language Script" /></span></p>
+										<p>&nbsp;</p>
+										<p>Total New Cases By Day</p>
+										<p><span class="image project"><img src="assets/css/images/FifaIVR/Scripts/Instance Language Script.png" alt="Total New Cases By Day Script" /></span></p>
+										<p>&nbsp;</p>
+									<h6>'23 Ticket Analysis</h6>
+										<p>Total IVR Effectiveness Script</p>
+										<p><span class="image project"><img src="assets/css/images/FifaIVR/Scripts/Total IVR Effictiveness Script.png" alt="Total IVR Effectiveness Script" /></span></p>
+										<p>&nbsp;</p>
+										<p>Weekday Vs. Weekend Instances Script</p>
+										<p><span class="image project"><img src="assets/css/images/FifaIVR/Scripts/Week vs Weekend Script.png" alt="Weekday Vs. Weekend Instances Script" /></span></p>
+										<p>&nbsp;</p>
+										<p>Standard Deviation of Topics Script</p>
+										<p><span class="image project"><img src="assets/css/images/FifaIVR/Scripts/STDDIV By Topic Script.png" alt="Standard Deviation Script" /></span></p>
+										<p>&nbsp;</p>
+									<h6>YOY Growth</h6>
+										<p>2022 Instances Script</p>
+										<p><span class="image project"><img src="assets/css/images/FifaIVR/Scripts/Total 22 Instances Scipt .png" alt="2022 Instances Script" /></span></p>
+										<p>&nbsp;</p>
+										<p>2023 Instances Script</p>
+										<p><span class="image project"><img src="assets/css/images/FifaIVR/Scripts/Total 23 Instances Script.png" alt="2022 Instances Script" /></span></p>
+										<p>&nbsp;</p>
+                                        
+								</section>
+                                <hr>
+								<section>
+									<h3>Results and Recommendations</h3>
+									<div class="tile-container">
+										<div class="tile">
+											<h5>Language Utilization & Optimization</h5>
+											<div class="tile-text">
+                                            <p>English accounted for 76% of IVR usage, while German had the lowest share at 2%. The most common topic of concern across all languages was “Already Submitted an Application,” comprising 19.44% of interactions. </p>
+											<p>&nbsp;</p>
+                                            <p>To enhance engagement for non-English users, particularly German speakers, consider expanding localized options or addressing potential gaps in the IVR system for these audiences.</p>
+											</div>
+										</div>
+										<div class="tile">
+											<h5>IVR Effectiveness & Usage Trends</h5>
+											<div class="tile-text">
+                                            <p>With an 84% effectiveness rate in 2023, the IVR system successfully resolved most customer inquiries. </p>
+											<p>&nbsp;</p>
+                                            <p>However, weekday usage far exceeded weekends, reflecting customer interaction patterns. To maintain high effectiveness, consider reinforcing weekday resources while exploring opportunities to increase weekend support availability, such as deploying targeted self-service options during off-peak times.</p>
+											</div>
+										</div>
+										<div class="tile">
+											<h5>Outliers & Growth Opportunities</h5>
+											<div class="tile-text">
+                                            <p>Usage spikes on dates like 06-07-22 (1,039 instances) and 18-08-23 (523 instances) highlight potential events or factors driving increased IVR demand. Additionally, the 78% year-over-year increase in usage from 2022 to 2023 underscores growing adoption.</p>
+											<p>&nbsp;</p>
+                                            <p>Investigate these outliers to understand their causes, such as marketing campaigns or external events, and use these insights to predict and prepare for similar future surges. </p>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+
+                            <!-- Sidebar -->
+                            <div class="col-4 col-12-narrower">
+								<div id="sidebar">
+									<!-- Sidebar -->
+									<h6>Project Demo</h6>
+									<video controls width="100%">
+										<source src="assets/css/images/FifaIVR/Fifa_IVR.mp4" type="video/mp4">
+									</video>
+									<h6>Project Structure</h6>
+									<p><b>CSV Data:</b> Contains Data about 2022 Case Management, 2023 Total IVR's and 5 different languaged of IVR usage.</p>
+									<p><b>Python: </b>  Includes a python script for Extracting, Transforming, and Loading data into Pgadmin. </p>
+                                    <p><b>Libraires:</b>Pandas, NumPy, SQLAlchemy</p>
+									<p><b>SQL:</b>  Contains PostgreSQL scripts for data manipulation and analysis.</p>
+									<p><b>Tableau:</b> Contains a Tableau Dashboard used to visualize the data and share insights.</p>
+                                    
+									<hr>
+
+									<h6>Acknowledgements</h6>
+									<p>Data was given for a Data Engineer Case Study for Fifa.</p>
+									<hr>
+									<section>
+										<a href="https://github.com/Harrisinho17/Fifa-Case-Study" target="_blank" class="button ">GitHub Repository</a>
+                                        <p></p>
+										<a href="https://public.tableau.com/app/profile/alexander.harris7255/viz/FifaIVRCaseStudy/23TicketAnalysis?publish=yes" target="_blank" class="button">Tableau Dashboard</a>
+									</section>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+		var titleBarTitle = document.querySelector("#titleBar .title");
+		if (titleBarTitle && (titleBarTitle.textContent === "undefined" || titleBarTitle.textContent.trim() === "")) {
+			titleBarTitle.textContent = "";
+		}
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Australia Airbnb</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<div id="header">
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="About.html">About</a></li>
+						<li class="current"><a href="Projects.html">Projects</a></li>
+						<li><a href="docs.html">Documents</a></li>
+					</ul>
+				</nav>
+	
+			</div>
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div id="content" class="row">
+							<div class="col-8 col-12-narrower">
+								<div id="content">
+								<!-- Content -->
+									<article>
+										<header>
+											<h2><i class="fab fa-airbnb"></i> Brisbane, AUS Airbnb Analysis</h2>
+										</header>
+										<hr>
+										
+											<span class="image center"><img src="assets/css/images/AirbnbBrisbane/Brisbane_Aus.jpg" alt="" /></span>
+											<h3>Project Overview</h3>
+											<p>This project draws inspiration from my love of traveling and exploring new places. While browsing Airbnb's worldwide, I found myself particularly drawn to Brisbane due to my strong connection to the city. This led me to combine my passion for travel with data analytics in my first self-guided project. It was an exciting experience, as I could validate my findings by discussing them with friends currently living in Australia, gaining insights into why certain areas are priced higher than others. </p>
+										
+										<hr>
+										
+											<h3>Objective</h3>
+											<p>Explore key questions related to market trends, host and property insights, and revenue optimization for Airbnb listings in Brisbane.</p>  
+										
+										<hr>
+										
+											<h3>Features</h3>
+											<p><b>SQL Techniques:</b> Aggregations, window functions, joins, subqueries, and data type conversions.</p>
+											<p><b>Sentiment Analysis:</b> Evaluation of customer comments to derive sentiment scores, providing numerical insights into customer satisfaction and feedback trends.</p>
+											<p><b>Data Analysis:</b> Insights into average prices, listings by city, price rankings, and listings above average prices.</p>
+											<p><b>Advanced SQL Operations:</b> Keyword search in listings, filtering based on amenities, and calculating monthly availability.</p>
+										
+										<hr>
+										
+											<h3>SQL Visualization Script</h3>
+
+												<h6>Market Trends and Performance</h6>
+												<p>1.Neighbourhood Rate Summary</p>
+												<p><span class="image project"><img src="assets/css/images/AirbnbBrisbane/Market Trends/Neighbourhood Rate Summary.jpg" alt="Market Trends & Performance" /></span></p>
+												<p>2.Neighbourhood-Room Occupancy Overview</p>
+												<p><span class="image project"><img src="assets/css/images/AirbnbBrisbane/Market Trends/Neighbourhood-Room Occupancy Overview.jpg" alt="Market Trends & Performance" /></span></p>
+												<p>3.Room Type Occupancy Comparison</p>
+												<p><span class="image project"><img src="assets/css/images/AirbnbBrisbane/Market Trends/Room Type Occupancy Comparison.jpg" alt="Market Trends & Performance" /></span></p>
+												<p>4.Seasonal Demand Analysis</p>
+												<p><span class="image project"><img src="assets/css/images/AirbnbBrisbane/Market Trends/Seasonal Demand Analysis.jpg" alt="Market Trends & Performance" /></span></p>
+
+												<h6>Host and Property Insights</h6>
+												<p>5.AVG Price By Property type</p>
+												<p><span class="image project"><img src="assets/css/images/AirbnbBrisbane/Host And Property Insights/AvgPriceperdayby Listing Propertytype.jpg" alt="Host & Property Insights" /></span></p>
+												<p>6.AVG Price By Neighbourhood</p>
+												<p><span class="image project"><img src="assets/css/images/AirbnbBrisbane/Host And Property Insights/Avgpriceperday by Neighbourhood.jpg" alt="Host & Property Insights" /></span></p>
+												<p>7.Review & Occupancy Correlation Analysis</p>
+												<p><span class="image project"><img src="assets/css/images/AirbnbBrisbane/Host And Property Insights/Review and Occupancy Correlation Analysis.jpg" alt="Host & Property Insights" /></span></p>
+
+												<h6>Revenue And Pricing Optimization</h6>
+												<p>8.Revenue Estimates Across Neighborhoods</p>
+												<p><span class="image project"><img src="assets/css/images/AirbnbBrisbane/Revenue & Pricing Optimization/Revenue Estimates Across Neighbourhoods.jpg" alt="Host & Property Insights" /></span></p>
+												<p>9.Neighbourhood-Based Price Status Evaluation</p>
+												<p><span class="image project"><img src="assets/css/images/AirbnbBrisbane/Revenue & Pricing Optimization/Neighbourhood-Based Price Status Evaluation.jpg" alt="Host & Property Insights" /></span></p>
+										
+										<hr>
+										
+											<h3>Results and Recommendations</h3>
+											<div class="tile-container">
+												<div class="tile">
+													<h5>Market Trends and Performance</h5>
+													<div class="tile-text">
+													<p>The average daily rates of listings vary significantly by location, with listings in more affluent areas commanding higher rates.</p>
+													<p>There is a slight preference for private room or entire home listings over hotel rooms and shared rooms, resulting in higher occupancy rates for those types.</p>
+													<p>Autumn is the peak season for occupancy; lowering rates during Winter and Spring could increase overall occupancy and revenue.</p>
+												</div>
+												</div>
+												<div class="tile">
+													<div class="tile-text">
+													<h5>Host and Property Insights</h5>
+													<p>Number of reviews has little correlation with average rating, which typically ranges between 4.0 and 4.2 excluding outliers.</p>
+													<p>Airbnb prices have remained relatively stable over the past year, with some outliers possibly due to host changes.</p>
+													<p>Hotel rooms have the highest average cost ($246/night), and private rooms the lowest ($124/night); prices showed little change over the data period.</p>
+												</div>
+												</div>
+												<div class="tile">
+													<div class="tile-text">
+													<h5>Revenue and Pricing Optimization</h5>
+													<p>Prices did not vary much over time; adjusting prices seasonally may improve occupancy, though sample size limits conclusions.</p>
+													<p>Listings are mostly concentrated near the CBD; incorporating amenities and other factors could improve pricing analysis.</p>
+												</div>
+												</div>
+												<div class="tile">
+													<div class="tile-text">
+													<h5>Complete Brisbane Analysis</h5>
+													<p>This project analyzes Airbnb listings in Brisbane to uncover trends in pricing, occupancy, and revenue potential. By examining factors like location, room type, seasonal demand, and host behavior, the goal was to identify actionable insights for optimizing pricing strategies and understanding market performance across different property types.</p>
+													</div>
+												</div>
+											</div>
+									</article>
+								</div>
+							</div>
+
+                            <!-- Sidebar -->
+                            <div class="col-4 col-12-narrower">
+								<div id="sidebar">
+									<!-- Sidebar -->
+									<h6>Project Demo</h6>
+									<section>
+										<video controls width="100%">
+											<source src="assets/css/images/AirbnbBrisbane/BrisbaneAirbnbDemo.mp4" type="video/mp4">
+										</video>
+									</section>
+									<h6>Project Structure</h6>
+									<p><b>CSV Data:</b> Contains Raw CSV files containing insights about Airbnb Properties in Brisbane.</p>
+									<p><b>Python: </b>  Includes a python script for Extracting, Transforming, and Loading data into Pgadmin. </p>
+									<p><b>SQL:</b>  Contains PostgreSQL scripts for data manipulation and analysis.</p>
+									<p><b>Tableau:</b> Contains a Tableau Dashboard used to visualize the data and share insights.</p>
+									<hr>
+									<h6>Acknowledgements</h6>
+									<p>Data Gathered from <a href="https://insideairbnb.com/get-the-data/" target="_blank">Inside Airbnb</a>.</p>
+									<hr>
+									<section>
+										<a href="https://github.com/Harrisinho17/Brisbane_AirBNB_Data" target="_blank" class="button ">GitHub Repository</a>
+										<a href="https://public.tableau.com/app/profile/alexander.harris7255/viz/Book1_17461532184640/3_RPO" target="_blank" class="button">Tableau Dashboard</a>
+									</section>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+		var titleBarTitle = document.querySelector("#titleBar .title");
+		if (titleBarTitle && (titleBarTitle.textContent === "undefined" || titleBarTitle.textContent.trim() === "")) {
+			titleBarTitle.textContent = "";
+		}
+		});
+	</script>
+</body>
+</html>
